@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warm California Christmas Itinerary</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fffdf9;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  section {
+    padding: 1rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  th {
+    background-color: #ffe8c2;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .gallery img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .gallery img:hover {
+    transform: scale(1.03);
+  }
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+  }
+  .lightbox img {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+  }
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Warm California Christmas Getaway</h1>
+  <p>San Diego · Laguna Beach · Ojai · Santa Monica & Malibu</p>
+</header>
+
+<section>
+  <h2>Itinerary Overview</h2>
+  <table>
+    <tr><th>#</th><th>Itinerary</th><th>Route</th><th>Avg High °F</th><th>Drive Segments (≤3hr)</th><th>Hotels</th></tr>
+    <tr><td>1</td><td>San Diego → Ojai → Santa Monica</td><td>City → Valley → Coast</td><td>63–68</td><td>SD→Ojai 3h, Ojai→SM 2h</td><td>2</td></tr>
+    <tr><td>2</td><td>San Diego → Laguna → Santa Monica</td><td>Coastal arc (south→north)</td><td>64–68</td><td>SD→Laguna 1h, Laguna→SM 1.5h</td><td>2</td></tr>
+    <tr><td>3</td><td>San Diego (2n) → Santa Monica (3n)</td><td>Urban coast → Pacific hub</td><td>63–67</td><td>SD→SM 2.5h</td><td>2</td></tr>
+  </table>
+
+  <h2>Trip Descriptions</h2>
+  <table>
+    <tr><th>#</th><th>Trip Description</th></tr>
+    <tr><td>1</td><td>A perfect mix of Southern California city life, mountain charm, and beach relaxation. Start in San Diego, wind through the Ojai Valley, and end with sunsets on the Santa Monica coast.</td></tr>
+    <tr><td>2</td><td>For those who love the ocean. Follow the Pacific coastline through beach towns—San Diego, Laguna, and Santa Monica—for a relaxing, sun-soaked drive with ocean views the entire way.</td></tr>
+    <tr><td>3</td><td>A simple, low-stress plan: base in San Diego for two nights, then head north to Santa Monica as your coastal home base. Great for biking, day trips to Malibu, and easy Christmas dining.</td></tr>
+  </table>
+
+  <h2>Visual Keyword Guide by Location</h2>
+  <ul>
+    <li><strong>San Diego:</strong> Gaslamp Quarter, Old Town, La Jolla Cove, Sunset Cliffs, Balboa Park, Christmas lights.</li>
+    <li><strong>Laguna Beach:</strong> Heisler Park, Crystal Cove, art galleries, surf coves, tide pools, scenic cliffs.</li>
+    <li><strong>Ojai:</strong> Spanish arcade, Meditation Mount, vineyards, orange groves, Los Padres mountains, Pratt Trail.</li>
+    <li><strong>Santa Monica / Malibu:</strong> Pier, Third Street Promenade, Ocean Avenue, Solstice Canyon, Malibu Creek, beaches, palm walks.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Photo Gallery</h2>
+  <h3>San Diego</h3>
+  <div class="gallery">
+    <img src="sandiego_oldtown.jpg">
+    <img src="sandiego_gaslamp.jpg">
+    <img src="sandiego_gaslamp_christmas.jpeg">
+    <img src="lajolla.webp">
+    <img src="lajolla_trail.jpg">
+  </div>
+  <h3>Laguna Beach</h3>
+  <div class="gallery">
+    <img src="laguna_beach.jpg">
+    <img src="laguna_beach_ca.jpg">
+    <img src="laguna_beach.webp">
+  </div>
+  <h3>Ojai</h3>
+  <div class="gallery">
+    <img src="ojai1.jpg">
+    <img src="ojai2.jpg">
+    <img src="ojai3.jpg">
+    <img src="ojai4.webp">
+    <img src="ojai_town.webp">
+    <img src="ojai_town2.webp">
+    <img src="ojai_town3.webp">
+  </div>
+  <h3>Santa Monica / Malibu</h3>
+  <div class="gallery">
+    <img src="santamonica.webp">
+    <img src="santamonica2.jpg">
+    <img src="santamonica3.jpg">
+    <img src="santamonica4.jpg">
+    <img src="santamonica5.jpg">
+    <img src="santamonica6.jpeg">
+    <img src="santamonica_solsticecanyon.webp">
+    <img src="santamonica_solsticecanyon2.webp">
+    <img src="Solstice-Canyon-Trail-Malibu-California.webp">
+    <img src="malibu_waterfall.jpg">
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+  <span class="close">&times;</span>
+  <img id="lightbox-img">
+</div>
+
+<script>
+  document.querySelectorAll('.gallery img').forEach(img => {
+    img.addEventListener('click', e => {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightbox.style.display = 'block';
+      lightboxImg.src = e.target.src;
+    });
+  });
+</script>
+
+</body>
+</html>
